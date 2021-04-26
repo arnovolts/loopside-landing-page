@@ -5,7 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
+  <!-- My stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Loopstudios landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,22 +22,35 @@
   </style>
 </head>
 <body>
-  <nav class="main-nav">
-    <div class="main-nav__logo">
+  <header class="main-header">
+
+    <div class="main-header__logo">
       <img src="images/logo.svg" alt="loopstudios logo">
     </div>
+    
+    <nav class="main-header__nav">
 
-    <ul class="main-nav__menu">
-      <li class="main-nav__menu-item">About</li>
-      <li class="main-nav__menu-item">Careers</li>
-      <li class="main-nav__menu-item">Events</li>
-      <li class="main-nav__menu-item">Products</li>
-      <li class="main-nav__menu-item">Support</li>
-    </ul>
-  </nav>
+      <ul class="main-header__nav__menu">
+
+        <li class="main-nav__menu-item">About</li>
+        <li class="main-nav__menu-item">Careers</li>
+        <li class="main-nav__menu-item">Events</li>
+        <li class="main-nav__menu-item">Products</li>
+        <li class="main-nav__menu-item">Support</li>
+
+      </ul>
+
+    </nav>
+
+    <button class="main-header__nav__menu-toggle">
+      <span></span>
+    </button>
+
+  </header>
+
 
   <section class="hero">
-    <p class="hero__text">Immersive experiences that deliver</p>
+    <h1 class="hero__text">Immersive experiences that deliver</h1>
   </section>
 
 
